@@ -1,0 +1,139 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Oluwatomioj\\source\\repos\\IreckonuFileHandler\\IreckonuFileHandler.Services\\IreckonuFileHandler.Services.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Oluwatomioj\\source\\repos\\IreckonuFileHandler\\IreckonuFileHandler.Core\\IreckonuFileHandler.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Oluwatomioj\\source\\repos\\IreckonuFileHandler\\IreckonuFileHandler.Core\\IreckonuFileHandler.Core.csproj",
+        "projectName": "IreckonuFileHandler.Core",
+        "projectPath": "C:\\Users\\Oluwatomioj\\source\\repos\\IreckonuFileHandler\\IreckonuFileHandler.Core\\IreckonuFileHandler.Core.csproj",
+        "packagesPath": "C:\\Users\\Oluwatomioj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Oluwatomioj\\source\\repos\\IreckonuFileHandler\\IreckonuFileHandler.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Oluwatomioj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Oluwatomioj\\source\\repos\\IreckonuFileHandler\\IreckonuFileHandler.Services\\IreckonuFileHandler.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Oluwatomioj\\source\\repos\\IreckonuFileHandler\\IreckonuFileHandler.Services\\IreckonuFileHandler.Services.csproj",
+        "projectName": "IreckonuFileHandler.Services",
+        "projectPath": "C:\\Users\\Oluwatomioj\\source\\repos\\IreckonuFileHandler\\IreckonuFileHandler.Services\\IreckonuFileHandler.Services.csproj",
+        "packagesPath": "C:\\Users\\Oluwatomioj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Oluwatomioj\\source\\repos\\IreckonuFileHandler\\IreckonuFileHandler.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Oluwatomioj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\Oluwatomioj\\source\\repos\\IreckonuFileHandler\\IreckonuFileHandler.Core\\IreckonuFileHandler.Core.csproj": {
+                "projectPath": "C:\\Users\\Oluwatomioj\\source\\repos\\IreckonuFileHandler\\IreckonuFileHandler.Core\\IreckonuFileHandler.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

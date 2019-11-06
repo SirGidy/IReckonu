@@ -1,0 +1,13 @@
+C:\Users\Oluwatomioj\source\repos\IreckonuFileHandler\IreckonuFileHandler.Core\bin\Debug\netcoreapp2.2\IreckonuFileHandler.Core.deps.json
+C:\Users\Oluwatomioj\source\repos\IreckonuFileHandler\IreckonuFileHandler.Core\bin\Debug\netcoreapp2.2\IreckonuFileHandler.Core.runtimeconfig.json
+C:\Users\Oluwatomioj\source\repos\IreckonuFileHandler\IreckonuFileHandler.Core\bin\Debug\netcoreapp2.2\IreckonuFileHandler.Core.runtimeconfig.dev.json
+C:\Users\Oluwatomioj\source\repos\IreckonuFileHandler\IreckonuFileHandler.Core\bin\Debug\netcoreapp2.2\IreckonuFileHandler.Core.dll
+C:\Users\Oluwatomioj\source\repos\IreckonuFileHandler\IreckonuFileHandler.Core\bin\Debug\netcoreapp2.2\IreckonuFileHandler.Core.pdb
+C:\Users\Oluwatomioj\source\repos\IreckonuFileHandler\IreckonuFileHandler.Core\obj\Debug\netcoreapp2.2\IreckonuFileHandler.Core.csproj.CoreCompileInputs.cache
+C:\Users\Oluwatomioj\source\repos\IreckonuFileHandler\IreckonuFileHandler.Core\obj\Debug\netcoreapp2.2\IreckonuFileHandler.Core.RazorAssemblyInfo.cache
+C:\Users\Oluwatomioj\source\repos\IreckonuFileHandler\IreckonuFileHandler.Core\obj\Debug\netcoreapp2.2\IreckonuFileHandler.Core.RazorAssemblyInfo.cs
+C:\Users\Oluwatomioj\source\repos\IreckonuFileHandler\IreckonuFileHandler.Core\obj\Debug\netcoreapp2.2\IreckonuFileHandler.Core.AssemblyInfoInputs.cache
+C:\Users\Oluwatomioj\source\repos\IreckonuFileHandler\IreckonuFileHandler.Core\obj\Debug\netcoreapp2.2\IreckonuFileHandler.Core.AssemblyInfo.cs
+C:\Users\Oluwatomioj\source\repos\IreckonuFileHandler\IreckonuFileHandler.Core\obj\Debug\netcoreapp2.2\IreckonuFileHandler.Core.RazorTargetAssemblyInfo.cache
+C:\Users\Oluwatomioj\source\repos\IreckonuFileHandler\IreckonuFileHandler.Core\obj\Debug\netcoreapp2.2\IreckonuFileHandler.Core.dll
+C:\Users\Oluwatomioj\source\repos\IreckonuFileHandler\IreckonuFileHandler.Core\obj\Debug\netcoreapp2.2\IreckonuFileHandler.Core.pdb

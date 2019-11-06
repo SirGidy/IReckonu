@@ -1,0 +1,22 @@
+2019-11-06 12:01:02.1620||DEBUG|IreckonuFileHandler.Program|init main |url: |action: 
+2019-11-06 17:52:58.7574||DEBUG|IreckonuFileHandler.Program|init main |url: |action: 
+2019-11-06 18:06:58.9955||DEBUG|IreckonuFileHandler.Program|init main |url: |action: 
+2019-11-06 19:13:01.4033||DEBUG|IreckonuFileHandler.Program|init main |url: |action: 
+2019-11-06 19:22:35.9941||DEBUG|IreckonuFileHandler.Program|init main |url: |action: 
+2019-11-06 19:24:56.2292||ERROR|IreckonuFileHandler.Services.Services.LogServices| Error Source  ::: Save File Path ::: Could not find a part of the path 'C:\Users\Oluwatomioj\source\repos\IreckonuFileHandler\IreckonuFileHandler\~\Resources\Json\KT5MJPW903.json'. System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Oluwatomioj\source\repos\IreckonuFileHandler\IreckonuFileHandler\~\Resources\Json\KT5MJPW903.json'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at IreckonuFileHandler.Services.Services.DiskService.Save(List`1 products) in C:\Users\Oluwatomioj\source\repos\IreckonuFileHandler\IreckonuFileHandler.Services\Services\DiskService.cs:line 54|url: |action: 
+2019-11-06 19:54:43.1332||DEBUG|IreckonuFileHandler.Program|init main |url: |action: 
+2019-11-06 19:57:14.1655||DEBUG|IreckonuFileHandler.Program|init main |url: |action: 
+2019-11-06 20:01:34.6816||DEBUG|IreckonuFileHandler.Program|init main |url: |action: 
+2019-11-06 20:10:02.2787||DEBUG|IreckonuFileHandler.Program|init main |url: |action: 
+2019-11-06 20:20:21.6714||DEBUG|IreckonuFileHandler.Program|init main |url: |action: 
+2019-11-06 20:22:25.3345||ERROR|IreckonuFileHandler.Services.Services.LogServices| Error Source ::: Save_Upload ::: An error occurred when saving recipe: An item with the same key has already been added. Key: 2800104 |url: |action: 
+2019-11-06 20:26:53.9729||DEBUG|IreckonuFileHandler.Program|init main |url: |action: 
+2019-11-06 20:29:50.2560||ERROR|IreckonuFileHandler.Services.Services.LogServices| Error Source ::: Save_Upload ::: An error occurred when saving recipe: An item with the same key has already been added. Key: 2800104 |url: |action: 
+2019-11-06 20:31:09.0134||DEBUG|IreckonuFileHandler.Program|init main |url: |action: 

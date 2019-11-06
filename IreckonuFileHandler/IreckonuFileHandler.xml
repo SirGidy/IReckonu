@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IreckonuFileHandler</name>
+    </assembly>
+    <members>
+        <member name="M:IreckonuFileHandler.Controllers.UploadController.UploadAsync">
+            <summary>
+            This method is used to process file upload </summary>
+             <returns> Initiate File Upload  </returns>
+             <response code="200">Returns if the operation was successful.</response>
+             <response code="400">Returns if file uploaded is invalid.</response>            
+             <response code="500">Returns if file upload failed.</response>
+             <remarks>
+            </remarks>
+            
+        </member>
+        <member name="M:IreckonuFileHandler.Controllers.UploadController.List">
+            <summary>
+            This method is used to fetch the details of all products .</summary>
+            <returns>  </returns>
+            <response code="200">Returns if the operation was successful.</response>
+            <response code="204">Returns if there are no products.</response>
+             <remarks>
+            </remarks>
+        </member>
+    </members>
+</doc>
