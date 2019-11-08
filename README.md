@@ -41,10 +41,10 @@ The API uses the following libraries and frameworks to deliver the functionalati
 
 3. Navigate to https://localhost:44326/swagger/index.html to cosume endpoints
 
-![pics1](https://user-images.githubusercontent.com/35226917/55267559-1fd8b500-5283-11e9-9e8e-f147ef95f046.jpg)
-![pics2](https://user-images.githubusercontent.com/35226917/55267561-21a27880-5283-11e9-8df3-a956259eac01.jpg)
-![pics3](https://user-images.githubusercontent.com/35226917/55267562-249d6900-5283-11e9-9d43-7c7acfb6f16e.jpg)
-![pics4](https://user-images.githubusercontent.com/35226917/55267564-2830f000-5283-11e9-8944-e1a24c400a80.jpg)
+
+![pics1](IreckonuFileHandler/Screenshots/endpoint1.png)
+![pics2](IreckonuFileHandler/Screenshots/endpoint2.png)
+
 
 
 To consume protected endpoints, you will need to create a user, login to obtain access token and then pass the access token in the authorization header while consuming the endpoints. I will recommend you use [Postman](https://www.getpostman.com/).
@@ -111,7 +111,7 @@ You will get a `204 No Content` response after calling this endpoint.
 ### Accessing Protected Endpoints
 To access a protected endpoint, kindly specify the access token in the Authorization header as shown below on postman 
 
-![pics5](https://user-images.githubusercontent.com/35226917/55267715-4519f300-5284-11e9-82ea-482e036f836b.jpg)
+![pics5](IreckonuFileHandler/Screenshots/authtoken.png)
 
 
 Happy testing !!!
