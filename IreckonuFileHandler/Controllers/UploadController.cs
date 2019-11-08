@@ -11,6 +11,7 @@ using IreckonuFileHandler.Core.Resource;
 using IreckonuFileHandler.Core.Services;
 using IreckonuFileHandler.Core.Services.Communication;
 using IreckonuFileHandler.Services.Helper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
@@ -56,7 +57,7 @@ namespace IreckonuFileHandler.Controllers
         [ProducesResponseType(200, Type = typeof(ProductResponse))]
         [ProducesResponseType(400)]
         [ProducesResponseType(500)]
-       
+        [Authorize]
 
         [HttpPost, DisableRequestSizeLimit]
         public async Task<IActionResult> UploadAsync()

@@ -12,6 +12,10 @@ namespace IreckonuFileHandler.Services.Persistence.Contexts
     {
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductPath> ProductPaths { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<Role> Roles { get; set; }
+        public DbSet<UserToken> UserTokens { get; set; }
+
 
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
@@ -22,9 +26,9 @@ namespace IreckonuFileHandler.Services.Persistence.Contexts
         {
             base.OnModelCreating(builder);
 
-      
 
-          
+
+            builder.Entity<UserRole>().HasKey(ur => new { ur.UserId, ur.RoleId });
 
             //builder.Entity<Product>().ToTable("Product");
             builder.Entity<Product>().HasKey(p => p.Id);

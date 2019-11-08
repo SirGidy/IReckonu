@@ -116,7 +116,7 @@ namespace IreckonuFileHandler.Services.Services
                         await _unitOfWork.CompleteAsync();
 
                         result.Success = true;
-                        result.Message = "Successfully process uplaod";
+                        result.Message = "Successfully processed upload";
 
                     }
                     else

@@ -4,6 +4,39 @@
         <name>IreckonuFileHandler</name>
     </assembly>
     <members>
+        <member name="M:IreckonuFileHandler.Controllers.AuthenticationController.LoginAsync(IreckonuFileHandler.Core.Resource.UserCredentialsResource)">
+            <summary>
+            This method is used to authenticate users of the API.</summary>
+            <param name="userCredentials">  </param>
+            <returns>  </returns>
+            <response code="200">Returns if the operation was successful.</response>
+            <response code="400">Returns if parameter is not valid.</response>            
+             <remarks>
+             Access token and Refresh tokens are returned on successful authentication. Kindly add the Access Token to the  Authorization header to access protected API method
+            </remarks>
+        </member>
+        <member name="M:IreckonuFileHandler.Controllers.AuthenticationController.RefreshTokenAsync(IreckonuFileHandler.Core.Resource.RefreshTokenResource)">
+            <summary>
+            This method is used to extend the validity of  access token issued to users of the API.</summary>
+            <param name="refreshTokenResource">  </param>
+            <returns>  </returns>
+            <response code="200">Returns if the operation was successful.</response>
+            <response code="400">Returns if parameter is not valid.</response>            
+             <remarks>
+             
+            </remarks>
+        </member>
+        <member name="M:IreckonuFileHandler.Controllers.AuthenticationController.RevokeToken(IreckonuFileHandler.Core.Resource.RevokeTokenResource)">
+            <summary>
+            This method is used to revoke the access token issued to users of the API.</summary>
+            <param name="revokeTokenResource">  </param>
+            <returns>  </returns>
+            <response code="204">Returns if the operation was successful.</response>
+            <response code="400">Returns if parameter is not valid.</response>            
+             <remarks>
+             
+            </remarks>
+        </member>
         <member name="M:IreckonuFileHandler.Controllers.UploadController.UploadAsync">
             <summary>
             This method is used to process file upload </summary>
@@ -22,6 +55,17 @@
             <response code="200">Returns if the operation was successful.</response>
             <response code="204">Returns if there are no products.</response>
              <remarks>
+            </remarks>
+        </member>
+        <member name="M:IreckonuFileHandler.Controllers.UsersController.CreateUserAsync(IreckonuFileHandler.Core.Resource.UserCredentialsResource)">
+            <summary>
+            This method is used to register user to obtain access to the API.</summary>
+            <param name="userCredentials">  </param>
+            <returns>  </returns>
+            <response code="200">Returns if the operation was successful.</response>
+            <response code="400">Returns if parameter is not valid.</response>            
+             <remarks>
+             
             </remarks>
         </member>
     </members>
